@@ -1,0 +1,62 @@
+.service__main__div {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service__container__box {
+    height: auto;
+    width: 60%;
+    /* background: rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.service__card {
+    width: 150px;
+    height: 170px;
+    color: #5e6c8f;
+
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+}
+
+.service__card:hover {
+    transition: 0.5s;
+    background: #0278fa;
+    transition: 0.4s;
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .service__container__box {
+        height: 100%;
+        width: 100%;
+        /* background: rgb(0, 0, 0); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+
+    .service__card {
+        width: 150px;
+        margin: 20px 0;
+    }
+
+}

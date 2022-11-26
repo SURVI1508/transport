@@ -1,0 +1,142 @@
+.nav__main__div {
+    width: 100vw;
+    height: auto;
+    /* background: rgba(0, 0, 0, 0.637); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav__container {
+    width: 80%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.nav__container p {
+    font-size: 12px;
+    color: gray;
+}
+
+.brand__logo__info {
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__box {
+    height: 100%;
+    width: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.contact__container {
+    width: 415px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid rgb(0, 17, 255); */
+
+}
+
+.contact__box {
+    height: 100%;
+    width: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location__box {
+    height: 100%;
+    width: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__links__container {
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid rgb(255, 253, 253);
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.link__box {
+    height: auto;
+    width: auto;
+    border-top: 2px solid rgb(255, 255, 255);
+    position: relative;
+    bottom: 1px;
+}
+
+.link__box:hover {
+    border-top: 2px solid rgb(8, 0, 255);
+    transition: 0.1s;
+}
+
+.link__box .Link {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menue__btn {
+    display: none !important;
+
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    /* background: rgb(0, 106, 255); */
+}
+
+@media (max-width:1000px) {
+    .nav__links__container {
+        display: none;
+    }
+
+    .location__box {
+        display: none;
+    }
+
+    .contact__box {
+        display: none;
+
+    }
+
+    .menue__btn {
+        display: block !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        padding: 5px 11px;
+    }
+
+    .logo__box {
+        padding: 0 20px;
+    }
+}

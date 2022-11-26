@@ -1,0 +1,72 @@
+.service__place__mani__div {
+    width: 100%;
+    height: auto;
+    background: #f4f5f9;
+    padding: 0 50px;
+}
+
+.service__place__container {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.service__place__mani__text {
+    height: 385px;
+    width: 380px;
+    background: #f4f5f9;
+    padding: 0 5px;
+    margin: 10px;
+}
+
+.service__place__mani__description {
+    height: auto;
+    width: 350px;
+    background: #f4f5f9;
+    margin: 20px;
+
+}
+
+.service__place__mani__description button {
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background: #0377ff;
+    border: none;
+    outline: none;
+}
+
+.place__image {
+    width: 100%;
+    height: 150px;
+}
+
+.place__image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:820px) {
+    .service__place__mani__div {
+        padding: 0 5px;
+    }
+
+    .service__place__mani__description {
+        width: 80%;
+        margin-top: 50px;
+
+    }
+
+    .service__place__mani__text {
+        width: 80%;
+
+    }
+    .service__place__mani__text p{
+    }
+}

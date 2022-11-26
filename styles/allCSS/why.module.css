@@ -1,0 +1,122 @@
+.Why__main__div {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height: auto;
+}
+
+.why__choose__container {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid rgb(34, 0, 255); */
+    padding-top: 100px;
+}
+
+.why__heading__box {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.why__choose__content {
+    width: 100%;
+    height: auto;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 150px;
+    position: relative;
+}
+
+
+.all__image__container {
+    height: 400px;
+    width: 500px;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image__one {
+    width: 70%;
+    height: 60%;
+    background: url("https://img.freepik.com/free-photo/guy-shows-document-girl-group-young-freelancers-office-have-conversation-working_146671-13569.jpg?size=626&ext=jpg&ga=GA1.2.1957557246.1669223099");
+    position: absolute;
+    top: 80px;
+    right: 140px;
+    box-shadow: 0 0 5px rgb(40, 40, 40);
+
+}
+
+.image__two {
+    width: 70%;
+    height: 60%;
+    background: url("https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15874.jpg?size=626&ext=jpg&ga=GA1.2.1957557246.1669223099");
+
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    box-shadow: 0 0 5px rgb(40, 40, 40);
+}
+
+.image__three {
+    width: 70%;
+    height: 60%;
+    background: url("https://img.freepik.com/free-photo/collaborative-process-multicultural-businesspeople-using-laptop-presentation-communication-meeting-brainstorming-ideas-about-project-colleagues-working-plan-success-strategy-modern-office_7861-2510.jpg?size=626&ext=jpg&ga=GA1.2.1957557246.1669223099");
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 95px;
+    left: 70px;
+    box-shadow: 0 0 5px rgb(40, 40, 40);
+
+}
+
+.why__text__box {
+    height: auto;
+    width: 100%;
+    /* border: 3px solid black; */
+
+}
+
+.why__text__box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    width: 100%;
+}
+
+@media (max-width:650px) {
+    .why__choose__container {
+
+        padding-top: 250px;
+    }
+
+    .why__choose__content {
+
+        padding: 20px;
+
+    }
+
+    .image__one {
+        display: none;
+    }
+    .why__choose__content {
+      
+        padding: 0 10px;
+    }
+    .why__choose__content p {
+      font-size: 15px;
+      padding: 0 10px;
+    }
+    
+}

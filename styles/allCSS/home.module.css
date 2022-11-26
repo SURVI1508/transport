@@ -1,0 +1,91 @@
+.home__main__div {
+    width: 100%;
+    height: 90vh;
+    background: url("https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=600");
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.821);
+    width: 100%;
+    height: 100%;
+}
+
+/* header starts */
+
+.main__header__div {
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__header__div h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.main__header__div p {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 25px;
+}
+
+.main__header__div button {
+    font-size: 15px;
+    color: #0278fa;
+    letter-spacing: 1px;
+    background: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border: 3px solid #027afabb;
+    margin: 20px 0;
+}
+
+.main__header__div button:hover {
+    background: #0278fa;
+    color: white;
+}
+
+
+@media (max-width:700px) {
+    .main__header__div h1 {
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+
+    .main__header__div p {
+        font-size: 15px;
+        color: white;
+        letter-spacing: 10px;
+        font-weight: 400;
+    }
+
+    .home__main__div {
+        height: auto;
+    }
+
+    .main__header__div {
+        padding-top: 100px;
+
+    }
+.home__main__div {
+    height: auto;
+}
+
+ 
+}
+
+/* header end */

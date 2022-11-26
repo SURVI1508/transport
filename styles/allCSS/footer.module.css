@@ -1,0 +1,130 @@
+.footer__main__div {
+    width: 100%;
+    height: 400px;
+    background: #04132a;
+    color: white;
+    padding: 0 10px;
+}
+
+.footer__container {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__div__one {
+    width: 400px;
+    height: 80%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social__media__links {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.facebook {
+    width: 50px;
+    height: 100%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter {
+    width: 50px;
+    height: 100%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin {
+    width: 50px;
+    height: 100%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all__links {
+    width: 200px;
+    height: 80%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+margin:10px;
+
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__input {
+    width: 300px;
+    height: 80%;
+    /* border: 2px solid white; */
+margin:10px;
+}
+
+.footer__input input {
+    padding: 10px 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+
+.footer__input button {
+    padding: 10.2px 20px;
+    border: none;
+    outline: none;
+    background: #067cea;
+}
+
+@media (max-width:1100px) {
+    .footer__main__div {
+        width: 100%;
+        height: auto;
+        padding: 50px 10px;
+    }
+
+    .footer__container {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .all__links {
+        width: 80%;
+        
+    margin:10px;
+    
+    }
+    .footer__input {
+        width: 80%;
+      
+    }
+.footer__div__one {
+    width: 80%;
+}
+}
