@@ -24,7 +24,7 @@ const Service = () => {
                     <h3>All Flights</h3>
                     <p>Are Available Here</p>
                 </div>
-               
+
             </div>
         </div>
     )

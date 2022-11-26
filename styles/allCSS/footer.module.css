@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-margin:10px;
+    margin: 10px;
 
 }
 
@@ -80,7 +80,7 @@ margin:10px;
     width: 300px;
     height: 80%;
     /* border: 2px solid white; */
-margin:10px;
+    margin: 10px;
 }
 
 .footer__input input {
@@ -114,17 +114,20 @@ margin:10px;
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .all__links {
         width: 80%;
-        
-    margin:10px;
-    
+
+        margin: 10px;
+
     }
+
     .footer__input {
         width: 80%;
-      
+
     }
-.footer__div__one {
-    width: 80%;
-}
+
+    .footer__div__one {
+        width: 80%;
+    }
 }
