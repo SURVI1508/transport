@@ -1,9 +1,16 @@
 import React from 'react'
 import styles from '../../styles/allCSS/nav.module.css'
 import "font-awesome/css/font-awesome.min.css"
+// import Scroll from 'react-scroll'
 import Link from 'next/link'
 
 const Nav = () => {
+    const open = () => {
+        const drawer = document.getElementById("drawer")
+        drawer.style.width = "230px"
+    }
+
+
     return (
         <div className={styles.nav__main__div}>
             <div className={styles.nav__container}>
@@ -45,15 +52,15 @@ const Nav = () => {
                         <p>Home page</p>
                     </div>
                     <div className={styles.link__box}>
-                        <Link className={styles.Link} href='/'>Service</Link>
+                        <Link className={styles.Link} href='/Serviceplace'>Service</Link>
                         <p>Home page</p>
                     </div>
                     <div className={styles.link__box}>
-                        <Link className={styles.Link} href='/'>Category</Link>
+                        <Link className={styles.Link} href='//allCOMPONENTS/Unmachedservice'>Category</Link>
                         <p>Home page</p>
                     </div>
                     <div className={styles.link__box}>
-                        <Link className={styles.Link} href='/'>Plan</Link>
+                        <Link className={styles.Link} href='/allCOMPONENTS/Service'>Plan</Link>
                         <p>Home page</p>
                     </div>
                     <div className={styles.link__box}>
@@ -62,7 +69,7 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.menue__btn}><i style={{ color: "#027afabb" }} className="fa fa-bars"></i></div>
+            <div onClick={open} className={styles.menue__btn}><i style={{ color: "#027afabb" }} className="fa fa-bars"></i></div>
         </div>
     )
 }

@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import React from 'react'
 import styles from '../../styles/allCSS/footer.module.css'
 const Footer = () => {
     return (
-        <div className={styles.footer__main__div}>
+        <div id='footer' className={styles.footer__main__div}>
             <div className={styles.footer__container}>
                 <div className={styles.footer__div__one}>
                     <div className={styles.logo__footer}><h1>LOGO</h1></div>
@@ -34,17 +33,18 @@ const Footer = () => {
                     <Link className={styles.Link} href='/'>Contact</Link>
                 </div>
                 <div className={styles.footer__input}>
-                    <h3>CONTACT</h3><br/>
+                    <h3>CONTACT</h3><br />
                     <p>Get in Touch with me or company Inform of a document or a typeface without relying on meaningful </p>
-                    <br/>
+                    <br />
                     <div className={styles.input__fld}>
                         <input placeholder='E-mal' name='mail' />
-                        <button>Send</button>
+                        <Link href="/"><button >Send</button></Link>
                     </div>
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Footer

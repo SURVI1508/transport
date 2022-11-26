@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/allCSS/servicePlace.module.css'
+import styles from '../styles/allCSS/servicePlace.module.css'
 const Serviceplace = () => {
     return (
         <div className={styles.service__place__mani__div}>
@@ -17,7 +17,7 @@ const Serviceplace = () => {
                     <div className={styles.place__image}><img src='https://images.pexels.com/photos/2144905/pexels-photo-2144905.jpeg?auto=compress&cs=tinysrgb&w=600' alt='pic' /></div>
                     <h3 style={{ padding: "10px 0",color:"#3a5c95" }}>Salt Lake</h3>
                     <p>In publishing aic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typefacrelying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                    <button>▶️</button>
+                    <button style={{fontWeight:"700"}}>→</button>
                 </div>
 
                 <div className={styles.service__place__mani__description}>
